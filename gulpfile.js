@@ -59,8 +59,8 @@ gulp.task('livereload', function(next) {
 
 // Watch for LESS and JS changes and run the respective compilers automatically
 gulp.task('watch', function () {
-    gulp.watch(sourceLESS + '/**/*.less', ['less']);
-    gulp.watch(sourceJS + '/**/*.js', ['js']);
+    gulp.watch(sourceLESS + '/app.less', ['less']);
+    gulp.watch(sourceJS + '/app.js', ['js']);
 });
 
 
